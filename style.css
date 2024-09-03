@@ -1,0 +1,68 @@
+/* basic styling for the body */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(image.png);
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* card styling */
+.card{
+    background-color: rgba(103, 103, 103, 0.701);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 20px;
+    color: black;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+input[type="date"]{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type="date"]:hover{
+    box-shadow: 0 7px 14px;
+}
+
+button{
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #0000008f;
+}
+
+#currentAge{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
