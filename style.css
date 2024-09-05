@@ -15,22 +15,23 @@ body{
 /* card styling */
 .card{
     background-color: rgba(103, 103, 103, 0.701);
-    padding: 20px;
+    padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
     text-align: center;
 }
 
 header h1{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: black;
+    font-size: xx-large;
 }
 
 label{
     display: block;
-    margin-bottom: 8px;
-    font-size: large;
+    margin-bottom: 10px;
+    font-size: larger;
     font-weight: bolder;
 }
 
@@ -40,7 +41,7 @@ input[type="date"]{
     padding: 8px;
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 input[type="date"]:hover{
@@ -54,15 +55,16 @@ button{
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: medium;
 }
 
 button:hover{
     background-color: #0000008f;
 }
 
-#currentAge{
+.currentAge{
     margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: bolder;
 }
